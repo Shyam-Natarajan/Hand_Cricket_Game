@@ -1,0 +1,56 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.bgImg {
+    background-image: url("image/night-view-7943221_1280.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.glass1 {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 2px;
+}
+
+.container-sm{
+    width: 50%;
+}
+
+@media screen and (max-width: 575px) {
+    .sm-width {
+      width: 80%;
+    }
+  }
+.textColor{
+    color: rgb(255, 47, 47);
+
+}
+
+.glass2{
+    box-shadow: 0 8px 32px 0 rgba(204, 207, 255, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+}
+
+li{
+    color: #E7EBE0FF;
+}
+
+.btn{
+    background-color: #FAEBEFFF;
+    color: #333D79FF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:#333D79FF ;
+    color: #FAEBEFFF;
+} 
